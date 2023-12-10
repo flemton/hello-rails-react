@@ -4,5 +4,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root 'static#index'
-  get '/api/random_greeting', to: 'greetings#random'
+  get '/random_greeting', to: 'greetings#random'
 end
