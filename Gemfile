@@ -72,3 +72,5 @@ group :test do
 end
 
 gem "webpacker", "~> 3.6"
+
+gem 'faker'
