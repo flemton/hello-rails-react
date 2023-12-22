@@ -7,5 +7,5 @@
 #   Character.create(name: "Luke", movie: movies.first)
 #
 5.times do
-  Message.create(content: Faker::Lorem.sentence)
+  Greeting.create(content: Faker::Lorem.sentence)
 end
